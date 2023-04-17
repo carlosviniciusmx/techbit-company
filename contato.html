@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Contatos - Techbit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/techbitlogo.png" alt="logo techbit">
+        <nav>
+            <ul>
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="#"><li>Serviços</li></a>
+                <a href="#"><li>Sobre</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="formulario">
+    <legend>Suas informações para contato</legend>
+            <form action="#" method="post">
+                <div class="input">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="input">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input">
+                    <label for="tel">Telefone:</label><br>
+                    <input type="tel" id="tel" name="tel" required>
+                </div>
+                <div class="input">
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" required ></textarea>
+                </div>
+                <button id="btn-contato" type="submit">Enviar</button>
+
+            </form>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 TechBit. Todos os direitos reservados.</p>
+        </footer>
+</body>
+</html>
