@@ -7,8 +7,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #333;
+    background-color: #554d4d;
     color: white;
+    background-color: rgb(122, 149, 156);
 }
 
 header {
@@ -36,13 +37,36 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: #7e652b;
+    color: #333;
     text-shadow: 0px 0.5px 0.5px #7e652b;
 }
 
-span {
-    color: #d0a84b;
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
+
+h1, h2 {
+    color: #333;
+}
+
+h4 {
+    margin-bottom: 50px;
+}
+
+.principal {
+    max-width: 500px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+section img {
+    height: 500px;
+}
+
+
 
 footer {
     background-color: #f2f2f2;
@@ -52,6 +76,26 @@ footer {
     text-align: center;
     position: relative;
     bottom: 0;
+}
+
+.sos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-f {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+}
+
+#techbit-footer {
+    border-bottom: 1px solid #7e652b;
 }
 
 /* Página de contatos */
